@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Collaberative Program" default="cobolbuild" basedir="." xmlns:ac="antlib:net.sf.antcontrib">
+<project name="Collabertive Program" default="cobolbuild" basedir="." xmlns:ac="antlib:net.sf.antcontrib">
 	<typedef name="mffilelist" classname="com.microfocus.ant.TypeFileList"/>
 	<typedef name="mfdirlist" classname="com.microfocus.ant.TypeDirectiveList"/>
 	<typedef name="mfdestfilelist" classname="com.microfocus.ant.TypeDestinationFileList"/>
@@ -65,7 +65,7 @@
 	</mffilelist>
 	<!-- COBOL copybook locations -->
 	<mffilelist id="cobol.copybook.locations">
-		<path type="copybook" name="${Collaberative_Program}"/>
+		<path type="copybook" name="${Collabertive_Program}"/>
 	</mffilelist>
 	<!--  ****************************************  -->
 	<!--  * COBOL Source Files and Directive Set *  -->
@@ -141,7 +141,7 @@
 	</target>
 	<target name="init" depends="os.init,os.init.windows,os.init.unix">
 		<property environment="env"/>
-		<property name="Collaberative_Program" value="${basedir}"/>
+		<property name="Collabertive_Program" value="${basedir}"/>
 		<property name="cfg" value="New_Configuration"/>
 		<property name="cfgtarget" value="cfg.${cfg}"/>
 		<property name="forceCompile" value="true"/>
