@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cobolProject" name="Assignment 2" version="2.4">
+<project xsi:schemaLocation="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cobolProject" name="Exercise 2" version="2.4">
    <settings xsi:type="projectSettingsContainer">
       <copybook-paths xsi:type="copybookPathsSettings">
-         <path enabled="true" name="/Assignment 2" type="mfpath"/>
+         <path enabled="true" name="/Exercise 2" type="mfpath"/>
       </copybook-paths>
       <build-precedence-paths xsi:type="buildPrecedenceSettings">
-         <path enabled="true" name="/Assignment 2" type="mfpath"/>
+         <path enabled="true" name="/Exercise 2" type="mfpath"/>
       </build-precedence-paths>
       <configurations default="New Configuration" xsi:type="buildConfigurationsContainer">
          <configuration description="New Configuration" type="single_exe" is64bit="false" createlbr="false" platform="Windows" xsi:type="cobolBuildConfiguration">
@@ -22,7 +22,7 @@
                <additional_files/>
                <rcfile path=""/>
                <rts_type value="shared"/>
-               <target name="Assignment 2"/>
+               <target name="Exercise 2"/>
                <targettype type="exe"/>
                <threaded_rts value="true"/>
                <verbose value="false"/>

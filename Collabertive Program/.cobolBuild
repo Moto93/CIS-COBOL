@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Exercise 2" default="cobolbuild" basedir="." xmlns:ac="antlib:net.sf.antcontrib">
+<project name="Collaberative Program" default="cobolbuild" basedir="." xmlns:ac="antlib:net.sf.antcontrib">
 	<typedef name="mffilelist" classname="com.microfocus.ant.TypeFileList"/>
 	<typedef name="mfdirlist" classname="com.microfocus.ant.TypeDirectiveList"/>
 	<typedef name="mfdestfilelist" classname="com.microfocus.ant.TypeDestinationFileList"/>
@@ -61,19 +61,19 @@
 	<!--  **********************  -->
 	<!-- cobol_file_set_1 -->
 	<mffilelist type="srcfile" id="cobol_file_set_1" srcdir="${basedir}">
-		<file name="Exercise2.cbl"/>
+		<file name="Program1.cbl"/>
 	</mffilelist>
 	<!-- COBOL copybook locations -->
 	<mffilelist id="cobol.copybook.locations">
-		<path type="copybook" name="${Exercise_2}"/>
+		<path type="copybook" name="${Collaberative_Program}"/>
 	</mffilelist>
 	<!--  ****************************************  -->
 	<!--  * COBOL Source Files and Directive Set *  -->
 	<!--  ****************************************  -->
 	<!-- dirset.New_Configuration -->
-	<mfdirlist id="dirset.New_Configuration.C:\Users\Mac\Documents\GitHub\CIS-COBOL\Exercise 2\Exercise2.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\Mac\Documents\GitHub\CIS-COBOL\Collabertive Program\Program1.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\Mac\Documents\GitHub\CIS-COBOL\Exercise 2\Exercise2.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\Mac\Documents\GitHub\CIS-COBOL\Collabertive Program\Program1.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -87,7 +87,7 @@
 	<!--  ****************  -->
 	<!-- Default -->
 	<mffilelist id="cobol.default.object.files" srcdir="${basedir}/${cfgtargetdir}" type="objfile">
-		<file name="Exercise2${objext}"/>
+		<file name="Program1${objext}"/>
 	</mffilelist>
 	<!--  *************************  -->
 	<!--  * Configuration targets *  -->
@@ -99,7 +99,7 @@
 			<mfdirlist refid="cobol_directive_set_1"/>
 			<mffilelist refid="cobol_file_set_1"/>
 		</cobol>
-		<cobollink destdir="${basedir}/New_Configuration.bin" sharedRts="true" is64bit="false" threadedRts="true" entrypoint="" failonerror="${cobollinkFailOnError}" debug="true" desttype="exe" destfile="Exercise 2">
+		<cobollink destdir="${basedir}/New_Configuration.bin" sharedRts="true" is64bit="false" threadedRts="true" entrypoint="" failonerror="${cobollinkFailOnError}" debug="true" desttype="exe" destfile="Collaberative Program">
 			<mffilelist refid="cobol.default.object.files"/>
 		</cobollink>
 	</target>
@@ -129,7 +129,7 @@
 		</cobolclean>
 		<cobolclean destdir="${basedir}/New_Configuration.bin" desttype="exe">
 			<mffilelist>
-				<file name="Exercise 2"/>
+				<file name="Collaberative Program"/>
 			</mffilelist>
 		</cobolclean>
 	</target>
@@ -141,7 +141,7 @@
 	</target>
 	<target name="init" depends="os.init,os.init.windows,os.init.unix">
 		<property environment="env"/>
-		<property name="Exercise_2" value="${basedir}"/>
+		<property name="Collaberative_Program" value="${basedir}"/>
 		<property name="cfg" value="New_Configuration"/>
 		<property name="cfgtarget" value="cfg.${cfg}"/>
 		<property name="forceCompile" value="true"/>
