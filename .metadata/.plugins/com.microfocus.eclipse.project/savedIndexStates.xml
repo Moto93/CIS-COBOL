@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <indexStates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
     <indexState>
-        <path>C:/Users/Mac/Documents/GitHub/CIS-COBOL/.metadata/.plugins/com.microfocus.eclipse.project/1110380683.index</path>
-        <state>PERSISTED</state>
-    </indexState>
-    <indexState>
         <path>C:/Users/Mac/Documents/GitHub/CIS-COBOL/.metadata/.plugins/com.microfocus.eclipse.project/1199129312.index</path>
         <state>PERSISTED</state>
     </indexState>
     <indexState>
         <path>C:/Users/Mac/Documents/GitHub/CIS-COBOL/.metadata/.plugins/com.microfocus.eclipse.project/3731886938.index</path>
+        <state>PERSISTED</state>
+    </indexState>
+    <indexState>
+        <path>C:/Users/Mac/Documents/GitHub/CIS-COBOL/.metadata/.plugins/com.microfocus.eclipse.project/208886170.index</path>
         <state>PERSISTED</state>
     </indexState>
 </indexStates>

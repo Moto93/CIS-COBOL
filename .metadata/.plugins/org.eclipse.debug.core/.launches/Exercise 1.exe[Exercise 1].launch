@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.microfocus.eclipse.launchCBL">
+<stringAttribute key="buildConfiguration" value="New Configuration"/>
+<stringAttribute key="cfgBlockName" value="New_Configuration.bin\New_Configuration.gcf"/>
+<mapAttribute key="cobol-switches"/>
+<stringAttribute key="editorDebugger" value="com.microfocus.eclipse.editor.cobol.CobolEditor"/>
+<booleanAttribute key="is64BitProcess" value="false"/>
+<booleanAttribute key="isConsoleApplication" value="true"/>
+<booleanAttribute key="isDefaultGeneratedDebug" value="true"/>
+<booleanAttribute key="isDefaultMultiThreaded" value="true"/>
+<booleanAttribute key="isProgramInProject" value="true"/>
+<booleanAttribute key="isSuspendAtStopRun" value="false"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Exercise 1"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+<stringAttribute key="process_factory_id" value="com.microfocus.eclipse.launch.core.process.ProcessFactory"/>
+<stringAttribute key="programName" value="New_Configuration.bin/Exercise 1.exe"/>
+<stringAttribute key="projectName" value="Exercise 1"/>
+<stringAttribute key="remote_DISPLAY" value="Mac-PC:0.0"/>
+<stringAttribute key="remote_daemon_port" value=""/>
+<booleanAttribute key="remote_daemon_port_enabled" value="true"/>
+<stringAttribute key="remote_host" value=""/>
+<mapAttribute key="rts-switches">
+<mapEntry key="F0" value="on"/>
+<mapEntry key="O0" value="on"/>
+</mapAttribute>
+<stringAttribute key="runtimeArguments" value=""/>
+<mapAttribute key="tunables"/>
+<booleanAttribute key="useMatchIncludePath" value="false"/>
+<stringAttribute key="workingDirectory" value=""/>
+</launchConfiguration>

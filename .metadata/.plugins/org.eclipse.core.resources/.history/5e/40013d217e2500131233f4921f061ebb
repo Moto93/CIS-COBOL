@@ -1,0 +1,30 @@
+       program-id. Program1 as "Program1".
+       
+       environment division.
+       configuration section.
+       
+       data division.
+       working-storage section.
+       01 Meep pic 999.
+       01 meep2 pic x value "y".
+       procedure division.
+       display "this is a meep program!"
+       display ""
+       perform varying meep from 1 by 1
+           until meep > 20
+               display meep
+               display "shall we keep going? (y or n)"
+               accept meep2
+           perform until meep2 = "y" or "Y"
+                   display "Please enter Y or N."
+                   accept meep2
+                   if meep2 = "y" or "Y" then
+                       display "Okay we will continue"
+                       Continue
+                       else
+                           display "okay something worked"
+                           stop run
+           end-perform
+       end-perform.
+       stop run.
+       end program Program1.

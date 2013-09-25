@@ -1,0 +1,37 @@
+
+Visual COBOL Exception Handler - 9/24/2013  10:06:31 PM
+C:\Users\Mac\Documents\GitHub\CIS-COBOL\Collabertive Program\New_Configuration.bin\Collaberative Program.exe caused an exception at address : 0x01331180
+Exception type - EXCEPTION_STACK_OVERFLOW
+
+Registers:
+
+	EAX 00000000	EBX 013332F8
+	ECX 74D72E09	EDX 00000000
+	DS  002B	ESI 00184B10
+	ES  002B	EDI 01333318
+	FS  0053	GS  002B
+	CS  0023	EIP 01331180
+	SS  002B	ESP 002E3000	EBP 01333350
+	Flags 00010206
+
+Error occurred in : C:\Users\Mac\Documents\GitHub\CIS-COBOL\Collabertive Program\New_Configuration.bin\Collaberative Program.exe, loaded at 0x01330000
+
+COBOL call stack:
+
+	Program1	(obj program)
+
+Run-time : C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cblrtsm.dll, loaded at 0x10000000
+
+	CompanyName Micro Focus
+	FileDescription Micro Focus Run Time System Core Support
+	FileVersion VisualCOBOL-R6U1/080
+	LegalCopyright Copyright (C) Micro Focus 1984-2013. All rights reserved.
+	OriginalFileName cblrtsm.dll
+	ProductName Visual COBOL 2.1
+	ProductVersion 2.1.01045
+
+OS Information:
+
+Windows NT 6.1 (Build 7601: Service Pack 1)
+CPU: Intel Pentium Model 58 step 9, 8 processors
+Available memory - 4194303 KB
