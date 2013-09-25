@@ -1,8 +1,10 @@
       ******************************************************************
-      * Program:   Simple Counter                                      *
+      * Program:   Simple Counter                                      * 
       * Author:    Kyle Pennacchio                                     *
       * Status:    Working                                             *
-      ******************************************************************
+      * Bugs:      If an answer is longer than one letter the program  *
+      *            will throw an error                                 *
+      ******************************************************************                    
        
        program-id. Program1 as "Program1".
        
@@ -32,14 +34,14 @@
            continue
        else 
            perform Input-Check.
-       
+           
        N-Check.
        if meep2 = "n" or "N"
            stop "Okay we will stop counting. Press enter to exit."
            stop run
        else
            perform Y-Check.
-       
+           
        Input-Check.
        perform until meep2 not equal " "
            display "Please enter a valid answer."

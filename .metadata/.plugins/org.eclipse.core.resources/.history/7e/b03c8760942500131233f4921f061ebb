@@ -1,9 +1,10 @@
-      **************************************
-      *
-      *Program:    First Exercise
-      *Author:     CIS 111 Kyle Pennacchio 
-      *Status:     Working
-      ************************************** 
+      /####################################
+      /
+      /Program:    First Exercise
+      /Author:     CIS 111 Kyle Pennacchio 
+      /Status:     Working
+      / 
+      /#################################### 
               
        identification division.
        program-id. Exercise1 as "Exercise1".
@@ -15,24 +16,24 @@
        working-storage section.
 
        procedure division.
-      *    Name 
+      /    Name 
            display "Name: Kyle Pennacchio"
-      *    Age 
+      /    Age 
            display "Age: 21"
-      *    Degree
+      /    Degree
            display "Current Program Enrolled: CIS"
-      *    Semester
+      /    Semester
            display "Current Semester: Second" 
-      *    Programming experience
-           display "Programmining Experience: Basic knowledge of C#, C++
-      -     ", and Java."
+      /    Programming experience
+           display 'Programmining Experience: Basic knowledge of C#, C++
+      -    ', and Java.'
             
-      *    Something interesting
+      /    Something interesting
            display 'Something Interesting: I have seen one of my bones '
       -    'before.' 
            
-      *    **End the procedure and program by pressing Enter
-      *    **Used to keep console open while using Eclipse IDE   
+      /    **End the procedure and program by pressing Enter
+      /    **Used to keep console open while using Eclipse IDE   
             stop "Press Enter to exit.".
             stop run.
       
