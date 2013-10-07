@@ -29,23 +29,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Program1.cbl" partName="Program1.cbl" path="C:/Users/Mac/Documents/GitHub/CIS-COBOL/Collaborative Program/Program1.cbl" title="Program1.cbl" tooltip="Collaborative Program/Program1.cbl" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Collaborative Program/Program1.cbl"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7" selectionTopPixel="0"/>
-</editor>
-<editor id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Exercise1.cbl" partName="Exercise1.cbl" path="C:/Users/Mac/Documents/GitHub/CIS-COBOL/Exercise 1/Exercise1.cbl" title="Exercise1.cbl" tooltip="Exercise 1/Exercise1.cbl" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Exercise 1/Exercise1.cbl"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1068" selectionTopPixel="179"/>
-</editor>
-<editor id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Exercise2.cbl" partName="Exercise2.cbl" path="C:/Users/Mac/Documents/GitHub/CIS-COBOL/Exercise 2/Exercise2.cbl" title="Exercise2.cbl" tooltip="Exercise 2/Exercise2.cbl" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Exercise 2/Exercise2.cbl"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="200" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Exercise3.cbl" partName="Exercise3.cbl" path="C:/Users/Mac/Documents/GitHub/CIS-COBOL/Exercise 3/Exercise3.cbl" title="Exercise3.cbl" tooltip="Exercise 3/Exercise3.cbl" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Exercise 3/Exercise3.cbl"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="135" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -70,8 +60,6 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
@@ -87,9 +75,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
@@ -276,51 +262,38 @@
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="left">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="358" ratioRight="1074" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7496689" ratioLeft="566" ratioRight="189" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<info folder="true" part="bottom" ratio="0.7496689" ratioLeft="566" ratioRight="189" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.7495344" ratioLeft="805" ratioRight="269" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="right" ratio="0.7495344" ratioLeft="805" ratioRight="269" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -412,7 +385,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="716" ratioRight="716" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
@@ -430,66 +403,20 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" path="/Collabertive Program/Program1.cbl"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" path="/Exercise 1/Exercise1.cbl"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.NoSourceEditor" path="/Exercise 1/New_Configuration.bin/Exercise 1.exe"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" path="/Collaborative Program/Program1.cbl"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" path="/Exercise 2/Exercise2.cbl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" path="/Exercise 3/Exercise 3.cbl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" path="/Exercise 3/Exercise3.cbl"/>
 </editors>
-<item historyLabel="Program1.cbl" index="0">
+<item historyLabel="Exercise 3.cbl" index="0">
+<position info="not_deleted" x="193" y="3134"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Program1.cbl" index="0">
-<position info="not_deleted" x="1179" y="0"/>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="378" y="0"/>
 </item>
-<item historyLabel="Program1.cbl" index="0">
-<position info="not_deleted" x="830" y="0"/>
-</item>
-<item historyLabel="Program1.cbl" index="0">
-<position/>
-</item>
-<item historyLabel="Program1.cbl" index="0">
-<position info="not_deleted" x="639" y="0"/>
-</item>
-<item historyLabel="Program1.cbl" index="0">
-<position info="not_deleted" x="678" y="0"/>
-</item>
-<item historyLabel="Program1.cbl" index="0">
-<position/>
-</item>
-<item historyLabel="Exercise1.cbl" index="1">
-<position/>
-</item>
-<item historyLabel="Program1.cbl" index="0">
-<position/>
-</item>
-<item historyLabel="Exercise 1.exe" index="2"/>
-<item historyLabel="Program1.cbl" index="0">
-<position info="not_deleted" x="97" y="0"/>
-</item>
-<item historyLabel="Exercise1.cbl" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Program1.cbl" index="0">
-<position info="not_deleted" x="534" y="0"/>
-</item>
-<item historyLabel="Program1.cbl" index="3">
-<position info="not_deleted" x="500" y="0"/>
-</item>
-<item historyLabel="Exercise1.cbl" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Exercise2.cbl" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Exercise1.cbl" index="1">
-<position info="not_deleted" x="1068" y="0"/>
-</item>
-<item historyLabel="Exercise2.cbl" index="4">
-<position info="not_deleted" x="200" y="0"/>
-</item>
-<item active="true" historyLabel="Program1.cbl" index="3">
-<position info="not_deleted" x="500" y="0"/>
+<item active="true" historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="895" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -508,6 +435,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Exercise3.cbl" tooltip="Exercise 3/Exercise3.cbl">
+<persistable path="/Exercise 3/Exercise3.cbl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Program1.cbl" tooltip="Two Problem Solving/Program1.cbl">
+<persistable path="/Two Problem Solving/Program1.cbl"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Exercise2.cbl" tooltip="Exercise 2/Exercise2.cbl">
 <persistable path="/Exercise 2/Exercise2.cbl"/>
 </file>
