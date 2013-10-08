@@ -1,11 +1,5 @@
-      *************************************
-      *Program:    Third Exercise
-      *Author:     CIS 112 Kyle Pennacchio 
-      *Status:     Working 
-      *************************************
-       
        identification division.
-       program-id. Exercise3.
+       program-id. Exercise3 as "Exercise3".
 
        environment division.
        configuration section.
