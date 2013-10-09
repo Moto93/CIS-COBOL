@@ -1,8 +1,8 @@
-      *************************************
+      **************************************
       *Program:    Third Exercise
       *Author:     CIS 112 Kyle Pennacchio 
       *Status:     Working 
-      *************************************
+      **************************************
        
        identification division.
        program-id. Exercise3.
@@ -112,12 +112,12 @@
        	   Move "Ground" to Shipping-Select.
        
        Ground-Shipping.
-           Multiply Coffee-in by 1 giving Ship-in
+           Multiply Coffee-in by 0.50 giving Ship-in
            Add 1.50 to Ship-in
            Move Ship-in to Ship-Out.
        
        Air-Shipping.
-           Multiply Coffee-in by 0.50 giving Ship-in
+           Multiply Coffee-in by 1 giving Ship-in
            Add 8.00 to Ship-in
            Move Ship-in to Ship-Out.
        

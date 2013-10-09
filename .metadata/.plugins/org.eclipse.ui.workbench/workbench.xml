@@ -18,7 +18,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.microfocus.eclipse.editor.cobol.CobolEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.microfocus.eclipse.editor.cobol.CobolEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -27,27 +27,21 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Exercise3.cbl" partName="Exercise3.cbl" path="C:/Users/Mac/Documents/GitHub/CIS-COBOL/Exercise 3/Exercise3.cbl" title="Exercise3.cbl" tooltip="Exercise 3/Exercise3.cbl" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Exercise 3/Exercise3.cbl"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4467" selectionTopPixel="1579"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
 <view id="com.microfocus.eclipse.editor.views.ProgramOutline" partName="Program Outline"/>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
-<viewState/>
-</view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
@@ -102,7 +96,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="com.microfocus.eclipse.editor.cobol.CobolEditor" activePerspective="com.microfocus.eclipse.project.ui.cobol.perspective">
+<perspectives activePart="com.microfocus.eclipse.ui.cobol.explorer" activePerspective="com.microfocus.eclipse.project.ui.cobol.perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.microfocus.eclipse.ui.CobolPerspective" id="com.microfocus.eclipse.project.ui.cobol.perspective" label="COBOL"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -332,10 +326,10 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
-<view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
 <fastViewBars/>
 <layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -362,7 +356,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44876325" ratioLeft="254" ratioRight="312" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.8697789" ratioLeft="708" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
@@ -382,151 +376,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" path="/Exercise 3/Exercise 3.cbl"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" path="/Exercise 3/Exercise3.cbl"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" path="/Exercise 2/Exercise2.cbl"/>
-</editors>
-<item historyLabel="Exercise 3.cbl" index="0">
-<position info="not_deleted" x="193" y="3134"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="378" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="895" y="0"/>
-</item>
-<item historyLabel="Exercise2.cbl" index="2">
-<position info="not_deleted" x="0" y="199"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="239" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1740" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1159" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1345" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1396" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1456" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1509" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1554" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1190" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1610" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="452" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1159" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1345" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1396" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1456" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1509" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1554" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="2424" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1159" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1345" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1396" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1456" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1509" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1554" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1159" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1345" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1396" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1456" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1509" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1082" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1259" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1310" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1370" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1423" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1468" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1082" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1259" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1310" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1370" y="0"/>
-</item>
-<item historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1423" y="0"/>
-</item>
-<item active="true" historyLabel="Exercise3.cbl" index="1">
-<position info="not_deleted" x="1468" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -543,11 +393,14 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Exercise2.cbl" tooltip="Exercise 2/Exercise2.cbl">
-<persistable path="/Exercise 2/Exercise2.cbl"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Exercise3.cbl" tooltip="Exercise 3/Exercise3.cbl">
 <persistable path="/Exercise 3/Exercise3.cbl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Program1.cbl" tooltip="Matt Debug/Program1.cbl">
+<persistable path="/Matt Debug/Program1.cbl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Exercise2.cbl" tooltip="Exercise 2/Exercise2.cbl">
+<persistable path="/Exercise 2/Exercise2.cbl"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Program1.cbl" tooltip="Two Problem Solving/Program1.cbl">
 <persistable path="/Two Problem Solving/Program1.cbl"/>
