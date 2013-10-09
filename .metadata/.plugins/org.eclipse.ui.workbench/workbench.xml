@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="14" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="200" y="92">
+<window height="860" maximized="true" width="841" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
-<itemSize x="160"/>
+<itemSize x="365"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
@@ -35,7 +35,7 @@
 </editorArea>
 <editor activePart="true" focus="true" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Exercise3.cbl" partName="Exercise3.cbl" path="C:/Users/Mac/Documents/GitHub/CIS-COBOL/Exercise 3/Exercise3.cbl" title="Exercise3.cbl" tooltip="Exercise 3/Exercise3.cbl" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Exercise 3/Exercise3.cbl"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4676" selectionTopPixel="1394"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4467" selectionTopPixel="1579"/>
 </editor>
 </editors>
 <views>
@@ -368,7 +368,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="716" ratioRight="716" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="716" ratioRight="716" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
@@ -403,8 +403,128 @@
 <item historyLabel="Exercise2.cbl" index="2">
 <position info="not_deleted" x="0" y="199"/>
 </item>
-<item active="true" historyLabel="Exercise3.cbl" index="1">
+<item historyLabel="Exercise3.cbl" index="1">
 <position info="not_deleted" x="239" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1740" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1159" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1345" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1396" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1456" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1509" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1554" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1190" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1610" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="452" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1159" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1345" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1396" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1456" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1509" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1554" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="2424" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1159" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1345" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1396" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1456" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1509" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1554" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1159" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1345" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1396" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1456" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1509" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1082" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1259" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1310" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1370" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1423" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1468" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1082" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1259" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1310" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1370" y="0"/>
+</item>
+<item historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1423" y="0"/>
+</item>
+<item active="true" historyLabel="Exercise3.cbl" index="1">
+<position info="not_deleted" x="1468" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
