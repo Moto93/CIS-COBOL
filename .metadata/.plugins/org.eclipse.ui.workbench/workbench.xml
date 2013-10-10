@@ -18,6 +18,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.microfocus.eclipse.editor.cobol.CobolEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -393,6 +394,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Program-Stopped2.cbl" tooltip="Midterm/Program-Stopped2.cbl">
+<persistable path="/Midterm/Program-Stopped2.cbl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.NoSourceEditor" name="Midterm.exe" tooltip="Midterm/New_Configuration.bin/Midterm.exe">
+<persistable path="/Midterm/New_Configuration.bin/Midterm.exe"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="New_Configuration.gcf" tooltip="Midterm/New_Configuration.bin/New_Configuration.gcf">
+<persistable path="/Midterm/New_Configuration.bin/New_Configuration.gcf"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Program2.obj" tooltip="Midterm/New_Configuration.bin/Program2.obj">
+<persistable path="/Midterm/New_Configuration.bin/Program2.obj"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Program2.idy" tooltip="Midterm/New_Configuration.bin/Program2.idy">
+<persistable path="/Midterm/New_Configuration.bin/Program2.idy"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Program2.cbl" tooltip="Midterm/Program2.cbl">
+<persistable path="/Midterm/Program2.cbl"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Program1.cbl" tooltip="Midterm/Program1.cbl">
+<persistable path="/Midterm/Program1.cbl"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.microfocus.eclipse.editor.cobol.CobolEditor" name="Exercise3.cbl" tooltip="Exercise 3/Exercise3.cbl">
 <persistable path="/Exercise 3/Exercise3.cbl"/>
 </file>
